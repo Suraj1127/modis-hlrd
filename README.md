@@ -21,7 +21,7 @@ We have just used U-net here but we could test with other segmentation algorithm
 
 It is easy to define loss and metric with Keras. We can define a function that takes both the True labels for a given example and the Predicted labels for the same given example.
 
-Here, we have used custom loss which has dice loss and cross entropy loss. Dice loss measures overlap between predicted mask and true mask. It was introduced in this (paper)[http://campar.in.tum.de/pub/milletari2016Vnet/milletari2016Vnet.pdf]. 
+Here, we have used custom loss which has dice loss and cross entropy loss. Dice loss measures overlap between predicted mask and true mask. It was introduced in this [paper](http://campar.in.tum.de/pub/milletari2016Vnet/milletari2016Vnet.pdf). 
 
 The algorithm can be applied by following the "Applying algorithms" block sequentially in the notebook.
 
